@@ -1,0 +1,10 @@
+@media (max-width: 24em) {
+  .recipe {
+    padding: 0.2rem;
+  }
+}
+@media (max-width: 40em) {
+  .recipe {
+    padding: 0.4rem;
+  }
+}

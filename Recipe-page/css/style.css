@@ -1,0 +1,116 @@
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3e6d8ff;
+  color: #5f574eff;
+}
+/* GENERAL RULES */
+.heading-primary,
+.heading-secondary {
+  font-family: "Young Serif", serif;
+  font-weight: inherit;
+  margin-bottom: 1.6rem;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  color: #302d2cff;
+}
+.heading-secondary {
+  font-size: 3rem;
+  color: #854632ff;
+}
+.heading-tertiary {
+  color: #7b284fff;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.recipe {
+  max-width: 80rem;
+  padding: 3.2rem;
+  background-color: #fff;
+  border-radius: 11px;
+}
+.recipe__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+.recipe__img img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+.recipe__description {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 3.2rem;
+}
+.preparation--time {
+  background-color: #fff5faff;
+  padding: 3.2rem;
+  border-radius: 11px;
+  margin-bottom: 3.2rem;
+}
+.list {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 0 3rem;
+}
+.item {
+  padding-left: 1.4rem;
+}
+
+.item__time::marker {
+  color: #7b284fff;
+}
+.item__ingredient::marker,
+.item__instruction::marker {
+  color: #854632ff;
+}
+hr {
+  margin: 3.2rem;
+  border: none;
+  height: 2px;
+  background-color: #e4ded8ff;
+}
+.table__title {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.nutrition__table {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 0 3rem;
+}
+.nutrition__row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 1px solid #e4ded8ff;
+  padding-bottom: 1.4rem;
+}
+.nutrition__row:last-child {
+  border: none;
+}
+.nutrition__value {
+  font-weight: 700;
+  color: #854632ff;
+}
