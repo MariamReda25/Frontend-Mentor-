@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/frontend-mentor/tree/main/Social-links-profile)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Social-links-profile)
 - Live Site URL: [Netlify](https://social-links-profile-challenge3.netlify.app/)
 
 ## Author
