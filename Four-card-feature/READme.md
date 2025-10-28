@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/frontend-mentor/tree/main/Four-card-feature)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Four-card-feature)
 - Live Site URL: [Netlify](https://four-card-features-challenge-sol.netlify.app/)
 
 ## Author
