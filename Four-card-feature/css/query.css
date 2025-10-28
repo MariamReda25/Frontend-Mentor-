@@ -1,0 +1,37 @@
+@media (max-width: 57em) {
+  .section__feature {
+    padding: 2.4rem;
+  }
+  .icon {
+    padding: 0.4rem;
+  }
+  .section__text-description {
+    margin-bottom: 4.8rem;
+  }
+}
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+  .section__text-box {
+    transform: translateX(0);
+  }
+  .section__four-card-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .section__feature {
+    padding: 1.2rem auto;
+    transform: translateY(0);
+  }
+  .section__text-description {
+    font-size: 1.4rem;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+}
