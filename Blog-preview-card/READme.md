@@ -8,7 +8,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/frontend-mentor/tree/main/Blog-Preview-card)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Blog-Preview-card)
 - Live Site URL:  [Netlify](https://blog-preview-card-challenge2.netlify.app/)
 
  

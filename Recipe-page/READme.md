@@ -8,7 +8,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/frontend-mentor/tree/main/Recipe-page)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Recipe-page)
 - Live Site URL: [Netlify](https://recipe-page-challenge4.netlify.app/)
 
 ## Author
