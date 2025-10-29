@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/frontend-mentor/tree/main/Four-card-feature)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Testimonials-grid)
 - Live Site URL: [Netlify](https://testimonial-grid-challenge-sol.netlify.app/)
 
 ## Author
