@@ -1,0 +1,19 @@
+@media (max-width: 65em) {
+  .testimonal__icon {
+    opacity: 0;
+  }
+}
+@media (max-width: 59em) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonal__icon {
+    opacity: 1;
+  }
+}
+@media (max-width: 30em) {
+  .testimonal__icon {
+    display: none;
+  }
+}
