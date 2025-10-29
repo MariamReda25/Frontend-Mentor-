@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 .testimonials {
   max-width: 130rem;
@@ -97,7 +97,7 @@ body {
   color: #fff;
 }
 /******************
-* TESTIMONIAL #3-4  *
+* TESTIMONIAL #3-5  *
 *******************/
 .testimonial--5 {
   grid-column: 4/5;
@@ -120,7 +120,7 @@ body {
   color: #48556aff;
 }
 /******************
-* TESTIMONIAL #5  *
+* TESTIMONIAL #4  *
 *******************/
 .testimonial--4 {
   grid-column: 2/4;
