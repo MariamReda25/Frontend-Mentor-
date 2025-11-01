@@ -12,7 +12,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Four-card-feature)
-- Live Site URL: [Netlify](https://clipboard-landing-page-challenge-sol.netlify.app/)
+- Live Site URL: [Vercel](https://frontendmentor-xi.vercel.app/)
 
 ## Author
 
