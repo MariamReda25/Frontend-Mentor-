@@ -1,0 +1,135 @@
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ecf2f8ff;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100rem;
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+.preview__img {
+  background-image: url(../images/drawers.jpg);
+  background-size: 50rem 40rem;
+  background-position: center left;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 11px;
+  border-top-left-radius: 11px;
+}
+.preview__text {
+  padding: 3.2rem 6.4rem;
+  background-color: #fff;
+  border-bottom-right-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.heading-secondary {
+  font-size: 2.4rem;
+  color: #48556aff;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.preview__description {
+  color: #6d7f97ff;
+  margin-bottom: 2.4rem;
+}
+.person-info {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.person-img img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+}
+.person-name {
+  font-weight: 700;
+  color: #48556aff;
+}
+.preview-date {
+  color: #9eafc2ff;
+}
+.preview__person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview-icon {
+  position: relative;
+  padding: 0.8rem;
+  background-color: #ecf2f8ff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  border: none;
+}
+.icon-share {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #48556aff;
+  cursor: pointer;
+}
+.active {
+  background-color: #48556aff;
+}
+.active .icon-share {
+  color: #fff;
+}
+.preview-icon:hover {
+  background-color: #48556aff;
+}
+.preview-icon:hover .icon-share {
+  color: #fff;
+}
+.popup-window {
+  position: absolute;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.4rem 2.4rem;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  background-color: #48556aff;
+  border-radius: 11px;
+  transition: all 0.5s;
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+}
+.popup-window.show {
+  opacity: 1;
+  visibility: visible;
+}
+.popup-window::after {
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  bottom: -100%;
+  right: 50%;
+  transform: translate(-9rem, 2.5rem) rotate(45deg);
+  background-color: #48556aff;
+}
+.window-text {
+  text-transform: uppercase;
+  color: #9eafc2ff;
+  letter-spacing: 0.1rem;
+}

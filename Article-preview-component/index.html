@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Article preview Component solution challenge "
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <script defer src="script.js"></script>
+    <title>Article preview component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="preview__img" aria-label=""></div>
+      <div class="preview__text">
+        <h2 class="heading-secondary">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h2>
+        <p class="preview__description">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I&apos;ve got some simple tips to
+          help you make any room feel complete.
+        </p>
+        <div class="preview__person">
+          <div class="person-info">
+            <div class="person-img">
+              <img
+                src="images/avatar-michelle.jpg"
+                alt="Michelle Appleton photo"
+              />
+            </div>
+            <div>
+              <p class="person-name">Michelle Appleton</p>
+              <p class="preview-date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button class="preview-icon">
+            <ion-icon name="arrow-redo" class="icon-share"></ion-icon>
+            <div class="popup-window">
+              <span class="window-text">share</span>
+              <a href="#">
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="icon-facebook"
+                  class="icon icon-facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="icon-twitter"
+                  class="icon icon-twitter"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="images/icon-pinterest.svg"
+                  alt="icon-pinterest"
+                  class="icon icon-pinterest"
+                />
+              </a>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
