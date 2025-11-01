@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Four-card-feature)
+- Solution URL: [Github](https://github.com/MariamReda25/Frontend-Mentor-/tree/main/Clipboard-landing-page)
 - Live Site URL: [Netlify](https://clipboard-landing-page-challenge-sol.netlify.app/)
 
 ## Author
